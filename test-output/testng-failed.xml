@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [smoke]">
+  <test thread-count="5" name="LoginTest(failed)">
+    <parameter name="zip" value="34756"/>
+    <parameter name="country" value="Sweden"/>
+    <parameter name="password" value="abc123"/>
+    <parameter name="address" value="bealte line"/>
+    <parameter name="phone" value="34290809"/>
+    <parameter name="city" value="Carrolton"/>
+    <parameter name="fullName" value="xmlProject"/>
+    <parameter name="company" value="Techfios"/>
+    <parameter name="state" value="Texas"/>
+    <parameter name="email" value="abc@techfios.com"/>
+    <parameter name="username" value="demo@techfios.com"/>
+    <classes>
+      <class name="test.AddContactTest">
+        <methods>
+          <include name="validUserShouldBeAbleToAddCustomer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.AddContactTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [smoke] -->

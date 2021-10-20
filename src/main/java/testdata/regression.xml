@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="smoke">
+
+	<test name="LoginTest">
+		<parameter name="username" value="demo@techfios.com" />
+		<parameter name="password" value="abc123" />
+		<parameter name="fullName" value="xmlProject" />
+		<parameter name="company" value="Techfios" />
+		<parameter name="email" value="abc@techfios.com" />
+		<parameter name="phone" value="34290809" />
+		<parameter name="address" value="bealte line" />
+		<parameter name="city" value="Carrolton" />
+		<parameter name="state" value="Texas" />
+		<parameter name="zip" value="34756" />
+		<parameter name="country" value="Sweden" />
+
+		<classes>
+		<!-- <class name ="test.LoginTest"></class> -->
+		
+		<class name ="test.AddContactTest"></class>
+		
+		</classes>
+
+	</test>
+
+
+</suite>
